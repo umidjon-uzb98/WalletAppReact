@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/shared/Nav';
+import Dashboard from './components/dashboard/Dashboard';
+import "bootstrap/dist/css/bootstrap.min.css"
+import Welcome from './components/Welcome';
+import { Route, Routes } from 'react-router-dom';
+import CreateWallet from './components/dashboard/dashboardoperations/CreateWallet';
+import NotFound from './components/shared/NotFound';
+import { Provider } from 'react-redux'
+import store from './Store';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Nav />
+      <Routes >
+        <Route path='/' element={<Welcome />} />
+        <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/createwallet' element={<CreateWallet />} />
+        <Route path='/notfound' element={<NotFound />} />
+      </Routes>
+    </Provider>
   );
 }
 
