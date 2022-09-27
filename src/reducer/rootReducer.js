@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux'
-// import errorReducer from './errorReducer';
-// import walletReducer from './walletReducer';
+import errorReducer from './errorReducer';
+import walletReducer from './walletReducer';
 
 export default combineReducers({
-    // errors:errorReducer,
-    // wallet:walletReducer
+    errors:errorReducer,
+    wallet:walletReducer
 });
