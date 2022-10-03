@@ -51,7 +51,7 @@ class Dashboard extends Component {
                             <div className="card text-center">
                                 <div className="card-header bg-success text-white">
                                     <h4>Current Balance (Total)</h4>
-                                    <h1>Rs. {this.state.totalBalance}</h1>
+                                    <h1>UZS. {this.state.totalBalance}</h1>
                                 </div>
                             </div>
                             <hr />
