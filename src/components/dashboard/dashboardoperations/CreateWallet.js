@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {createWallet} from '../../../actions/ProjectActions'
+import {createWallet} from '../../../actions/projectActions'
 import {connect} from 'react-redux'
 
 class CreateWallet extends Component {

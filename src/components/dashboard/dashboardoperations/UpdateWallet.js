@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import classnames from 'classnames'
-import {getWallet,updateWallet} from '../../../actions/ProjectActions'
+import {getWallet,updateWallet} from '../../../actions/projectActions'
 
 
 class UpdateWallet extends Component {

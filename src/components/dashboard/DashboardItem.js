@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import {deleteWallet} from '../../actions/ProjectActions'
+import {deleteWallet} from '../../actions/projectActions'
 import {connect} from 'react-redux'
 
 class DashboardItem extends Component {
