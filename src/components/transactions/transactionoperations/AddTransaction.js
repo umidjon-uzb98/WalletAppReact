@@ -46,7 +46,7 @@ class AddTransaction extends Component {
                                 Back to Wallet
                             </Link>
                             <h4 className="display-4 text-center">Record New Transaction</h4>
-                            <p className="lead text-center">UBL Account</p>
+                            <p className="lead text-center">Account</p>
                             <form onSubmit={this.handleSubmit}>
                                 <div className="form-group">
                                     <input type="number" min="1" value={amount} onChange={event => this.changeHandler(event, "amount", false)} className="form-control form-control-lg" placeholder="Amount" />

@@ -17,8 +17,8 @@ class Transaction extends Component {
                 <br />
                 <div className="card text-center">
                     <div className="card-header bg-success text-white">
-                        <h4>UBL Account Balance</h4>
-                        <h1>Rs. 27000</h1>
+                        <h4>Account Balance</h4>
+                        <h1>UZS. 27000</h1>
                     </div>
                 </div>
                 <hr />
@@ -34,8 +34,8 @@ class Transaction extends Component {
                     </thead>
                     <tbody>
                     <tr className="table-danger">
-                        <td>2022-04-15</td>
-                        <td>PTCL Bill</td>
+                        <td>2022-11-11</td>
+                        <td> Bill</td>
                         <td className="text-danger">-3000</td>
                         <td>
                             <a className="text-info" href="updatetransactionForm.html"><i className="fas fa-edit fa-2x"></i></a>
@@ -43,7 +43,7 @@ class Transaction extends Component {
                         </td>
                     </tr>
                     <tr className="table-success">
-                        <td>2020-04-01</td>
+                        <td>2022-11-11</td>
                         <td>Income</td>
                         <td className="text-success">+30000</td>
                         <td>
